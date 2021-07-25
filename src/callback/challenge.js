@@ -2,7 +2,7 @@
 
 let XMLHttpRequest=require('xmlhttprequest').XMLHttpRequest;
 //creo varable donde guardo la ur de la api a donde pido informacion
-let API='https://rickandmortyapi.com/api/character';
+let API='https://rickandmortyapi.com/api/character/';
  function fecthData(url_api,callback){
     //creo una instancia de la clase XMLHttprequest
     let xhttp=new XMLHttpRequest();
