@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
    "callback:challenge":"node src/callback/challenege.js",
-   "promise:challenge":"node src/promise/challenege.js"
+   "promise:challenge":"node src/promise/challenege.js",
+   "async":"node src/async/index.js",
+   "async:challenge":"node src/async/challenge.js"
    
   },
   "repository": {
